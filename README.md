@@ -1,3 +1,4 @@
+#chat_system
 """
 This is a typical distributed client-server system, where multiple clients interact with a central server. Conceptually, this is how wechat is constructed. Clients interact with each other as if directly, what actually happens is, however, the server is passing messages back and forth, and adds other functionalities (such as indexing history). 
 There can be multiple clients, each of them is either idle, or actively participates in one chat session with a group of other clients. Think of a client as an ordinary user of WeChat. Our system is simple: it allows chatting in one group only.
